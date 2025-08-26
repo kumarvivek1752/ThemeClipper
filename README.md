@@ -1,5 +1,3 @@
----
-
 # 🎬 ThemeClipper
 
 **Generate theme clips from movies and TV series for Jellyfin**
