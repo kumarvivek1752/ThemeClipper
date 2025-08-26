@@ -27,7 +27,9 @@ It follows **Jellyfin’s Backdrops folder structure**, making integration seaml
 
 ## 🎥 Demo
 
-<video src="docs/assets/demo.mp4" width="640" height="360" controls></video>
+![Demo](docs/assets/demo.gif)
+
+👉 [Watch Full Demo Video](docs/assets/demo.mp4)
 
 ## 🚀 Usage
 
