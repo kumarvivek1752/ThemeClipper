@@ -1,0 +1,6 @@
+{
+  "movies_directory": "./data/movies/",
+  "shows_directory": "./data/shows/",
+  "clip_length": 15,
+  "method": "random"
+}
