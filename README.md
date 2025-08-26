@@ -2,7 +2,7 @@
 
 **Generate theme clips from movies and TV series for Jellyfin**
 
-ThemeClipper is a **lightweight Blazing fast  Written in Rust CLI tool** that automatically creates **theme clips** for your movies and series using **FFmpeg**.
+ThemeClipper is a **lightweight Blazing fast Written in Rust CLI tool** that automatically creates **theme clips** for your movies and series using **FFmpeg**.
 It follows **Jellyfin’s Backdrops folder structure**, making integration seamless.
 
 ---
@@ -24,6 +24,10 @@ It follows **Jellyfin’s Backdrops folder structure**, making integration seaml
 - 🎼 **Music-driven** theme clips
 
 ---
+
+## 🎥 Demo
+
+<video src="docs/assets/demo.mp4" width="640" height="360" controls></video>
 
 ## 🚀 Usage
 
