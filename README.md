@@ -1,63 +1,40 @@
-# 🎬 ThemeClipper
+<h1 align="center">ThemeClipper</h1>
 
-**Generate theme clips from movies and TV series for Jellyfin**
+<h4 align="center">Generate backdrops from movies and TV shows for Jellyfin. Built on <a href="https://rust-lang.org" target="_blank">Rust</a>.</h4><br>
 
-ThemeClipper is a **lightweight Blazing fast Written in Rust CLI tool** that automatically creates **theme clips** for your movies and series using **FFmpeg**.
-It follows **Jellyfin’s Backdrops folder structure**, making integration seamless.
-
----
-
-## ✨ Features
-
-- 🎥 Generate theme clips for **Movies**
-- 📺 Generate theme clips for **TV Shows / Series**
-- 🎲 **Random method** for selecting clips
-- 🗑️ Option to **delete all Backdrops folders**
-- 🖥️ Cross platform supported ( **Linux, Mac, Windows** )
+ThemeClipper is a **lightweight Blazing fast CLI tool** that automatically generates **theme clips** for your movies and series using **FFmpeg**.
 
 ---
 
-## 🔮 Upcoming Features
+## Features
 
-- 🎵 **Audio-based** clip detection
-- 👀 **Visual-based** scene analysis
-- 🎼 **Music-driven** theme clips
+- Generate theme clips for **Movies**, **TV Shows / Series**
+- **Random method** for selecting clips ( currently supported )
+- Option to **delete all Backdrops folders**
+- Cross platform ( **Linux, Mac, Windows** )
 
 ---
 
-## 🎥 Demo
+## Upcoming Features
+
+- [ ] **Audio-based** clip detection
+- [ ] **Visual-based** scene analysis
+- [ ] **Music-driven** theme clips
+
+---
+
+## Demo
 
 ![Demo](docs/assets/demo.gif)
 
-👉 [Watch Full Demo Video](docs/assets/demo.mp4)
+[Watch Full Demo Video](docs/assets/demo.mp4)
 
-## 🚀 Usage
+## Usage
 
 Run ThemeClipper with your desired options:
 
 ```bash
-ThemeClipper - Generate theme clips from movies and series
-
-Usage: theme_clipper [OPTIONS]
-
-Options:
-      --movies-directory <MOVIES_DIRECTORY>
-          Path to movies directory
-      --shows-directory <SHOWS_DIRECTORY>
-          Path to shows/series directory
-  -c, --clip-length <CLIP_LENGTH>
-          Clip length in seconds (default: 10)
-  -m, --method <METHOD>
-          Method: random | audio | visual | music (default: random)
-          Note: currently only "random" is supported
-      --delete
-          Delete all Backdrops folders from the given directory
-      --config <CONFIG>
-          Path to config JSON file
-  -h, --help
-          Show help message
-  -V, --version
-          Show version
+theme_clipper --help
 ```
 
 Example:
